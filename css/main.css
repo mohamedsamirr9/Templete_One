@@ -361,9 +361,16 @@ section .last .serv li{
   padding: 40px;
   overflow: hidden;
 }
+
 .protofolio .container .list ul li{
+  display: block;
   padding: 5px 10px;
   transition: 0.3s;
+}
+@media (max-width:768px){
+  .protofolio .container .list ul {
+    flex-wrap: wrap;
+  }
 }
 .protofolio .container .list ul .first,
 .protofolio .container .list ul li:hover{
